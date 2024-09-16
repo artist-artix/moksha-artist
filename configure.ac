@@ -907,6 +907,7 @@ AC_E_OPTIONAL_MODULE([mixer], true, [CHECK_MODULE_MIXER])
 AC_E_OPTIONAL_MODULE([syscon], true)
 AC_E_OPTIONAL_MODULE([everything], true)
 AC_E_OPTIONAL_MODULE([systray], true)
+AC_E_OPTIONAL_MODULE([comp], true)
 AC_E_OPTIONAL_MODULE([quickaccess], true)
 AC_E_OPTIONAL_MODULE([shot], true)
 AC_E_OPTIONAL_MODULE([backlight], true)
@@ -1039,6 +1040,7 @@ src/modules/syscon/module.desktop
 src/modules/everything/module.desktop
 src/modules/everything/everything.pc
 src/modules/systray/module.desktop
+src/modules/comp/module.desktop
 src/modules/quickaccess/module.desktop
 src/modules/shot/module.desktop
 src/modules/backlight/module.desktop

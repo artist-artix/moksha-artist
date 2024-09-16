@@ -171,6 +171,10 @@ if USE_MODULE_SYSTRAY
 include Makefile_systray.am
 endif
 
+if USE_MODULE_COMP
+include Makefile_comp.am
+endif
+
 if USE_MODULE_QUICKACCESS
 include Makefile_quickaccess.am
 endif
